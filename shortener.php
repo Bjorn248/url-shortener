@@ -48,4 +48,5 @@ elseif (isset($_GET["code"])) {
 else {
     header( 'Location: /');
 }
+$con->close();
 ?>
