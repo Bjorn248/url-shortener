@@ -46,7 +46,7 @@ elseif (isset($_GET["code"])) {
     // echo print_r($con, TRUE);
 }
 else {
-    header( 'Location: /');
+    header( 'Location: ./index.php');
 }
 $con->close();
 ?>
